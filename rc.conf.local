@@ -1,0 +1,8 @@
+dhcpd_flags=re1
+ntpd_flags=-s -f /etc/ntpd.conf
+openvpn_flags=--config /usr/local/etc/openvpn/server.conf
+pf_flags=-f /etc/pf.conf
+pkg_scripts=ddclient openvpn
+slaacd_flags=NO
+sndiod_flags=NO
+unbound_flags=-c /var/unbound/etc/unbound.conf
